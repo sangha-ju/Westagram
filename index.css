@@ -1,0 +1,200 @@
+* {
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainBox-one{
+    width: 350px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(219, 219, 219, 1.0);
+    border-radius: 1px;
+    background-color: rgba(255, 255, 255, 1.0);
+    /* margin-left: 38%; */
+    margin-top: 5%;
+    padding: 10px 0;
+    position: relative;    
+}
+
+.secBox{
+    width: 350px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 20px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.titBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.logBar{
+    height: 40px;
+    margin-top: 20px;
+}
+
+.logPut{
+    width: 250px;
+    height: 30px;
+    font-size: 13px;
+    border: 1px solid rgba(219, 219, 219, 1.0);
+    padding: 9 0 7 8px;
+    border-radius: 5px;
+}
+
+.logBox{
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    height: 30px;
+}
+
+.logBtn{
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    /* margin-left: 47px; */
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: rgba(0, 149, 246, 0.3);
+    color: white;
+}
+
+.logText{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.fbLog{
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+}
+
+.fbLogBtn{
+    width: 270px;
+    height: 20px;
+    font-weight: bold;
+    color: #00008c;
+    border: 0px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.ab fa-facebook-square{
+    font-size: 15
+    6px;
+}
+
+.forgetPaw{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.pwdLink{
+    font-size: 13px;
+    border: 0px solid;
+    color: #00008c;
+}
+
+.idBox{
+    width: 350px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(219, 219, 219, 1.0);
+    border-radius: 1px;
+    background-color: rgba(255, 255, 255, 1.0);
+    margin-top: 10px;
+}
+
+.nonId{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.joinId{
+    border: 0px solid;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0095f6;
+    padding-left: 0;
+}
+ 
+.appBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downApp{
+    font-size: 15px;
+}
+
+.downBtn{
+    width: 135px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    border: 0px solid;
+    border-radius: 5px;
+    background: black;
+}
+
+ul{
+    list-style: none;
+    display: inline;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;   
+}
+
+.footTex{
+    display: inline;
+    align-content: space-between;
+    margin: 15px;
+}
+
+
+
+
+
