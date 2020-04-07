@@ -23,10 +23,9 @@
                 </div>
                 <div class="infoBtn">
                     <div class="infoBtnBox">
-                        <div class="infoIcon"><button><i class="fas fa-home"></i></button></div>
-                        <div class="infoIcon"><button><i class="far fa-compass"></i></button></div>
-                        <div class="infoIcon"><button><i class="far fa-heart"></i></button></div>
-                        <div class="infoIcon"><button><i class="far fa-user"></i></button></div>
+                        <div class="infoIcon"><img class="iconImg" src="./image/compass.png"></div>
+                        <div class="infoIcon"><img class="iconImg" src="./image/heart.png"></div>
+                        <div class="infoIcon"><img class="iconImg" src="./image/user.png"></div>
                     </div>
                 </div>
             </div>
@@ -36,38 +35,45 @@
                 <div class="twoConBox">
                     <article class="artConBox">
                         <header class="userInfo">
-                            <div class="useInfoImg">
-                                <img src="" alt="">
-                            </div>
                             <div class="useInfoBox">
-                                <div class="useInfoId">
-                                    <button class="useId">tkdgk3817</button>
+                                <div class="useId">
+                                    <div class="useImgContain">
+                                        <img class="userImg" src="./image/user.png">
+                                    </div>
+                                    <div class="anoUseId">
+                                        tkdgk3817
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="moreInfo">
+                                <div class="moreInfoImg">
+                                    <img class="moreImg" src="./image/more.png">
                                 </div>
                             </div>
                         </header>
                         <div class="mainPhoBox">
                             <div class="twoPhoBox">
-                                <img width="515px" height="600px" src="./image/news.jpeg">
+                                <img class="newsImg" src="./image/news.jpeg">
                             </div>
-                            <div>
+                            <div class="likeContain">
                                 <section class="likeBox">
-                                    <button class="likeMsgBtn"><i class="far fa-heart"></i></button>
-                                    <button class="likeMsgBtn"><i class="far fa-comment"></i></button>
-                                    <button class="likeMsgBtn"><i class="far fa-user"></i></button>
-                                    <button class="bookMarkBtn"><i class="far fa-bookmark"></i></button>
+                                    <div class="likeIcon"><img class="likeBoxIcon" src="./image/heart.png"></div>
+                                    <div class="likeIcon"><img class="likeBoxIcon" src="./image/comment.png"></div>
+                                    <div class="likeIcon"><img class="likeBoxIcon" src="./image/user.png"></div>
+                                    <div class="bookMarkIcon"><img class="likeBoxIcon" src="./image/bookmark.png"></div>
                                 </section>
                                 <section class="likeCount">
                                     <div class="countBox">
-                                        <button class="countCon">좋아요 1,600개</button>
+                                        좋아요 1,600개
                                     </div>
                                 </section>
                                 <div class="feedBox">
                                     <div class="userNick">
-                                        <button>tkdgk3817</button> <span>사진 출처 : </span> <button>@jungang-news</button>                                       
+                                        <span>tkdgk3817</span> <span>사진 출처 : </span> <span>@jungang-news</span>                                       
                                     </div>
                                     <div class="feedCon">
                                         <span>
-                                            <button>#코로나</button> <button>#사회적거리두기</button> <button>#실천</button><br/>
+                                            <a href="#">#코로나</a> <a href="#">#사회적거리두기</a> <a href="#">#실천</a><br/>
                                             아직 코로나 종식 된것도 아닌데 이렇게 많은 인파가 몰리는 경우는 무엇인가.....사회적 거리두기 실천합시다.
                                         </span>
                                     </div>
@@ -81,7 +87,7 @@
                                     <div class="rlpBox">
                                         <input class="rlpCon" type="text" placeholder="댓글 달기...">
                                     </div>
-                                    <button class="sendRlp">게시</button>
+                                    <span class="sendRlp">게시</span>
                                 </section>                                
                             </div>
                         </div>
@@ -92,11 +98,11 @@
                 <div class="myInfo">
                     <div class="myInfoBox">
                         <div class="meImg">
-                            <button class="goMyPage"><i class="far fa-user"></i></button>
+                            <img class="idImg" src="./image/user.png">
                         </div>
                         <div class="clickId">
                             <div class="clickIdBox">
-                                <button class="myIdClick">tkdgk3817</button>
+                                <span class="myIdClick">tkdgk3817</span>
                             </div>
                             <div class="realName">
                                 <span class="realMyName">주상하</span>
@@ -110,7 +116,7 @@
                             스토리
                         </div>
                         <div class="allViewSto">
-                            <button class="goAllView">모두 보기</button>
+                            <span class="goAllView">모두 보기</span>
                         </div>
                     </div>
                     <div class="anoPeaple">
@@ -118,9 +124,9 @@
                             <div class="friViewTwo">
                                 <div class="friViewThr">
                                     <div class="friList">
-                                        <button class="goToFriInfo">
+                                        <div class="goToFriInfo">
                                             <div class="friInfoBox">
-                                                <i class="far fa-user"></i>
+                                               <img class="friImg" src="./image/user.png">
                                             </div>
                                             <div class="seFriInfoBox">
                                                 <div class="friIdBox">
@@ -134,14 +140,14 @@
                                                     </span>
                                                 </div>
                                             </div>
-                                        </button>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="friViewThr">
                                     <div class="friList">
-                                        <button class="goToFriInfo">
+                                        <div class="goToFriInfo">
                                             <div class="friInfoBox">
-                                                <i class="far fa-user"></i>
+                                                <img class="friImg" src="./image/user.png">
                                             </div>
                                             <div class="seFriInfoBox">
                                                 <div class="friIdBox">
@@ -155,14 +161,14 @@
                                                     17시간 전
                                                 </span>
                                             </div>
-                                        </button>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="friViewThr">
                                     <div class="friList">
-                                        <button class="goToFriInfo">
+                                        <div class="goToFriInfo">
                                             <div class="friInfoBox">
-                                                <i class="far fa-user"></i>
+                                                <img class="friImg" src="./image/user.png">
                                             </div>
                                             <div class="seFriInfoBox">
                                                 <div class="friIdBox">
@@ -176,14 +182,14 @@
                                                     </span>
                                                 </div>
                                             </div>
-                                        </button>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="friViewThr">
                                     <div class="friList">
-                                        <button class="goToFriInfo">
+                                        <div class="goToFriInfo">
                                             <div class="friInfoBox">
-                                                <i class="far fa-user"></i>
+                                                <img class="friImg" src="./image/user.png">
                                             </div>
                                             <div class="seFriInfoBox">
                                                 <div class="friIdBox">
@@ -197,7 +203,7 @@
                                                     </span>
                                                 </div>
                                             </div>
-                                        </button>
+                                        </div>
                                     </div>                                   
                                 </div>
                             </div>
@@ -207,16 +213,16 @@
                                         회원님을 위한 추천
                                     </div>
                                     <div class="addFriAll">
-                                        <button class="allViewBtn">
+                                        <div class="allViewBtn">
                                             모두보기
-                                        </button>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="addFriList">
                                     <div class="addFriCha">
                                         <div class="friChas">
                                             <div class="listFriImg">
-                                                <i class="far fa-user"></i>
+                                                <img class="addFriImg" src="./image/user.png">
                                             </div>
                                             <div class="addFriInfo">
                                                 <div class="addFriInfoId">
@@ -227,12 +233,12 @@
                                                 </div>
                                             </div>
                                             <div class="goToFal">
-                                                <button class="falBtn">팔로우</button>
+                                                <span class="falBtn">팔로우</span>
                                             </div>
                                         </div>
                                         <div class="friChas">
                                             <div class="listFriImg">
-                                                <i class="far fa-user"></i>
+                                                <img class="addFriImg" src="./image/user.png">
                                             </div>
                                             <div class="addFriInfo">
                                                 <div class="addFriInfoId">
@@ -245,7 +251,7 @@
                                         </div>
                                         <div class="friChas">
                                             <div class="listFriImg">
-                                                <i class="far fa-user"></i>
+                                                <img class="addFriImg" src="./image/user.png">
                                             </div>
                                             <div class="addFriInfo">
                                                 <div class="addFriInfoId">
