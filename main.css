@@ -5,6 +5,7 @@ body {
 .mainView {
     display: flex;
     flex-direction: column;
+    background-color: rgb(250, 250, 250);
 }
 
 .secIntroBox{
@@ -12,9 +13,13 @@ body {
     margin: 0 auto;
     height: 55px;
     background-color: white;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #efefef;
     display: flex;
     justify-content: space-evenly;
+}
+
+.introBar{
+    background-color: white;
 }
 
 .logoBox{
@@ -34,9 +39,22 @@ body {
     align-items: center;
 }
 
-.serch{
+.serchContain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serchText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 215px;
     height: 28px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    opacity: 0.5;
+    font-size: 12px;
 }
 
 .infoBtn{
@@ -62,14 +80,19 @@ body {
 .firView{
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 30px;
 }
 
 .oneConBox{
     width: 615px;
-    height: 850px;
-    border: 1px solid black;
-    margin-top: 50px;
+    height: 884px;
+    border: 1px solid #efefef;
+    background-color: white;
+}
+
+.mainPhoBox{
+    width: 100%;
+    height: 840px;
 }
 
 .userInfo{
@@ -88,12 +111,13 @@ body {
     width: 25px;
     height: 25px;
     margin-right: 10px;
-    border: 1px solid black;
+    border: 1px solid #efefef;
     border-radius: 50%;
 }
 
 .anoUseId{
     margin-top: 5px;
+    font-weight: bold;
 }
 
 .moreImg{
@@ -102,8 +126,8 @@ body {
 }
 
 .newsImg{
-    width: 450px;
-    height: 600px;
+    width: 400px;
+    height: 585px;
 }
 
 .twoPhoBox{
@@ -133,6 +157,251 @@ body {
     height: 30px;
 }
 
+.likeCount{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
 
+.userNick{
+    margin-bottom: 5px;
+}
 
+.countBox{
+    font-size: 15px;
+    font-weight: bold;
+}
 
+.feedBox{
+    margin-left: 20px;
+}
+
+.soId{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.slId{
+    font-weight: bold;
+}
+
+.textCon{
+    font-size: 14px;
+}
+
+.contenTime{
+    margin: 10px;
+}
+
+.conTimeBox{
+    font-size: 7px;
+    opacity: 0.5;
+}
+
+.rlpSec{
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #efefef;
+}
+
+.rlpBox{
+    margin-left: 10px;
+}
+
+.rlpCon{
+    border: 0px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.sendRlp{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0095f6;
+    opacity: 0.3;
+}
+
+.totalBox{
+    margin-left: 30px;
+    background-color: rgb(250, 250, 250);
+}
+
+.myInfo{
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 10px;
+}
+
+.idImg{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #efefef;
+    border-radius: 50px;
+}
+
+.myInfoBox{
+    display: flex;
+    align-items: center;
+}
+
+.clickId{
+    margin-left: 10px;
+}
+
+.realMyName{
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.friViewTwo{
+    width: 300px;
+    border: 1px solid #efefef;
+    background-color: white;
+}
+
+.firStoryBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.storyTex{
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.allViewSto{
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.goToFriInfo{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.friImg{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #efefef;
+    border-radius: 50px;
+}
+
+.seFriInfoBox{
+    margin-left: 10px;
+}
+
+.friId{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.friLastTime{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.addFri{
+    width: 300px;
+    border: 1px solid #efefef;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.addFriBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.needFri{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.addFriAll{
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.friChas{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.goToFal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.addFriInfo{
+    margin-left: 10px;
+}
+
+.addFriImg{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+}
+
+.addFriInfoId{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.falPip{
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.falBtn{
+    font-size: 13px;
+    color: #0095f6;
+    margin-right: 20px;
+}
+
+.comInfoBar{
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    width: 300px; 
+}
+
+.footTex{
+    display: inline;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.footContain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fromFac{
+    font-size: 12px;
+    opacity: 0.5;
+}
