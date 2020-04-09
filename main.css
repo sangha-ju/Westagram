@@ -108,8 +108,8 @@ body {
 }
 
 .userImg{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     margin-right: 10px;
     border: 1px solid #efefef;
     border-radius: 50%;
@@ -159,7 +159,7 @@ body {
 }
 
 .likeCount{
-    margin-left: 20px;
+    margin-left: 13px;
     margin-bottom: 5px;
 }
 
@@ -173,7 +173,29 @@ body {
 }
 
 .feedBox{
+    margin-left: 13px;
+}
+
+.comtDiv{
+    margin-top: 10px;
+}
+
+.comtUser{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.comtRelp{
     margin-left: 20px;
+    font-size: 14px;
+}
+
+.comtDelete{
+    margin-left: 30px;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    color: #0095f6;
 }
 
 .soId{
@@ -190,7 +212,9 @@ body {
 }
 
 .contenTime{
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+    margin-bottom: 10px;
 }
 
 .conTimeBox{
@@ -237,8 +261,8 @@ body {
 }
 
 .idImg{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #efefef;
     border-radius: 50px;
 }
@@ -292,8 +316,8 @@ body {
 }
 
 .friImg{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #efefef;
     border-radius: 50px;
 }
@@ -361,8 +385,8 @@ body {
 }
 
 .addFriImg{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #efefef;
     border-radius: 50%;
 }
