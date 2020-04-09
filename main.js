@@ -1,10 +1,12 @@
 const sendRelp = document.querySelector('.sendRlp');
 const relpElem = document.querySelector('.rlpCon');
 
-relpElem.addEventListener('keyup', uploadRelp);
+relpElem.addEventListener('keypress', uploadRelp);
 
 function uploadRelp(e) {
     if(e.keyCode === 13) {
+    
+        // input에 value가 존재 할때만 돌아가게
 
         let comment = document.querySelector('.feedBox');
 
@@ -28,9 +30,10 @@ function uploadRelp(e) {
         makeDiv.appendChild(makeDelBtn);
         comment.appendChild(makeDiv);
 
+        relpElem.value = '';
+
         makeDelBtn.addEventListener("click", function(e) {
             const btn = event.target;
-            console.log(btn);
 
             const deleteAll = btn.parentNode;
 
